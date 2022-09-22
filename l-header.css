@@ -1,0 +1,17 @@
+#l-header{
+    grid-area: header;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+#c-logo-menu{
+
+}
+#c-list-menu{
+    font-size: 1.6rem;
+    display: flex;
+    column-gap: 2vw;
+    margin: 0px 5vw;
+}
