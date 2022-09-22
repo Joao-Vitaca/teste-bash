@@ -7,10 +7,11 @@
     padding: 1rem;
 }
 #c-logo-menu{
-
+    width: 100px;
+    height: 100px;
 }
 #c-list-menu{
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     display: flex;
     column-gap: 2vw;
     margin: 0px 5vw;

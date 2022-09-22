@@ -23,4 +23,6 @@ body{
                          "footer footer";
     min-height: 100vh;
     background-color: rgb(233, 233, 233);
+    max-width: 1024px;
+    margin: 0px auto;
 }
