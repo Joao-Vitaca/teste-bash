@@ -1,4 +1,16 @@
 #l-filter{
     grid-area: filter;
-    background-color: rgb(195, 0, 255);
+    background-color: aliceblue;
+    height: max-content;
+}
+#l-filter{
+    padding: 5%;
+    border-radius: 5%;
+    margin: 10% 5% 0% 3%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+#btn-filter{
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

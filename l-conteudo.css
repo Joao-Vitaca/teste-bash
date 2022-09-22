@@ -1,4 +1,28 @@
 #l-conteudo{
     grid-area: conteudo;
-    background-color: rgb(0, 38, 255);
+    margin-top: 5%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.logo-restaurante{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.container-descrição{
+    margin-left: 1%;
+}
+.container-tags{
+    display: flex;
+    column-gap: 5px;
+}
+.container-info{
+    display: flex;
+    column-gap: 15px;
 }
