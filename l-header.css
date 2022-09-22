@@ -16,3 +16,10 @@
     column-gap: 2vw;
     margin: 0px 5vw;
 }
+@media screen and (max-width: 768px) {
+#c-list-menu{
+    flex-direction: column;
+    position: relative;
+    left: -15%;
+}
+}

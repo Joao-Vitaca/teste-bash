@@ -1,19 +1,19 @@
 #l-conteudo{
     grid-area: conteudo;
     margin-top: 5%;
+    font-size: 1.6rem;
 }
 .cards{
     display: flex;
     align-items: center;
     background-color: aliceblue;
-    padding: 15px;
     margin: 15px;
     border-radius: 5px;
 }
 .logo-restaurante{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .container-descrição{
     margin-left: 1%;
