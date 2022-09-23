@@ -11,9 +11,7 @@ header{
     justify-self: left;
 }
 #c-list-menu{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
     font-size: 3rem;
     width: 100%;
 }
@@ -24,7 +22,6 @@ header{
 @media screen and (min-width: 769px) {
 #l-header{
     display: flex;
-
     align-items: center;
 }
 #c-logo-menu{
@@ -36,7 +33,6 @@ header{
     flex-direction: row;
     background-color: brown;
     width: max-content;
-    margin-left: 10%;
-
+    justify-self: center;
 } 
 }
