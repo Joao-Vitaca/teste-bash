@@ -1,25 +1,42 @@
-#l-header{
-    grid-area: header;
+header{
     background-color: rgb(255, 0, 0);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    grid-area: header;
+}   
+#l-header{
     padding: 1rem;
+}
+#c-logo-menu{
+    width: 100px;
+    height: 100px;
+    justify-self: left;
+}
+#c-list-menu{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    width: 100%;
+}
+.btn-menu{
+    background-color: brown;
+    border-radius: 15px;
+}
+@media screen and (min-width: 769px) {
+#l-header{
+    display: flex;
+
+    align-items: center;
 }
 #c-logo-menu{
     width: 100px;
     height: 100px;
 }
 #c-list-menu{
-    font-size: 2.0rem;
-    display: flex;
-    column-gap: 2vw;
-    margin: 0px 5vw;
-}
-@media screen and (max-width: 768px) {
-#c-list-menu{
-    flex-direction: column;
-    position: relative;
-    left: -15%;
-}
+    font-size: 1.6rem;
+    flex-direction: row;
+    background-color: brown;
+    width: max-content;
+    margin-left: 10%;
+
+} 
 }

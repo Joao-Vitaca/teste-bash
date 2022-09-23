@@ -1,7 +1,7 @@
 #l-conteudo{
     grid-area: conteudo;
     margin-top: 5%;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 .cards{
     display: flex;
@@ -12,8 +12,8 @@
 }
 .logo-restaurante{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 .container-descrição{
     margin-left: 1%;
@@ -25,4 +25,18 @@
 .container-info{
     display: flex;
     column-gap: 15px;
+}
+@media screen and (min-width: 481px) {
+    #l-conteudo{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width: 769px) {
+    #l-conteudo{
+        font-size: 1.6rem;
+    }
+    .logo-restaurante{
+        width: 200px;
+        height: 200px;
+    }
 }
